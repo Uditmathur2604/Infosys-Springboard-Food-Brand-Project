@@ -27,19 +27,17 @@ Milestone 2 Report
 ## Key Features & Deliverables
 
 ### Interactive Power BI dashboards showing:
-```
 - KPI cards (Total Revenue, Total Visits, Distinct Customers, Avg Spend per Visit, Avg Ratings, Sentiment)
 - Comparative visuals of Avg Food / Service / Ambiance ratings by cuisine
 - Sentiment vs Sales scatter plot and stacked sentiment breakdowns
 - Revenue share and ranking by cuisine, wait time analysis, loyalty metrics
-```
+
 ### Custom DAX measures for:
-```
 - Correlation analysis (e.g., Corr_Spend_Rating, Corr_Sentiment_Sales)
 - Dynamic titles (Selected Cuisine Title)
 - Loyalty %, Revenue Rank, Top Cuisine by Revenue, Cuisine % of Revenue, AvgSpend_vs_Overall
 - Composite Product Feature Score (avg of food, service, ambiance)
-```
+  
 ### Milestone presentations (PPTs) documenting approach, findings and recommendations.
 
 ## How to Use
@@ -54,8 +52,6 @@ Browse the PPT_Files for milestone slides showing approach and key findings.
 Explore the raw data in /Dataset/restaurant_customer_satisfaction.csv.
 
 ## Business Insights (till Milestone 3)
-```
 - Positive sentiment is strongly tied to higher cuisine sales—targeted marketing and quality improvements can lift underperforming segments.
 - Certain cuisines show high ratings but low sales or vice versa, helping direct business strategies for improvement.
 - Dynamic dashboard features support stakeholder-driven, segmented business analysis.
-```
