@@ -15,7 +15,7 @@ Milestone-3-PPT.pptx — Final dashboard walkthrough, measures, insights and rec
 ```
 restaurant_customer_satisfaction.csv — Raw dataset used for analysis.
 ```
-### Dashboard
+### Dashboard.pbix
 
 ### Documentation/
 ```
