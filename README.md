@@ -41,3 +41,21 @@ Milestone 2 Report
 - Composite Product Feature Score (avg of food, service, ambiance)
 ```
 ### Milestone presentations (PPTs) documenting approach, findings and recommendations.
+
+## How to Use
+
+### Interactive Analysis:
+Download and open Dashboard.pbix with Power BI Desktop for full functionality.
+
+### Quick Review:
+Browse the PPT_Files for milestone slides showing approach and key findings.
+
+### Dataset:
+Explore the raw data in /Dataset/restaurant_customer_satisfaction.csv.
+
+## Business Insights (till Milestone 3)
+```
+- Positive sentiment is strongly tied to higher cuisine sales—targeted marketing and quality improvements can lift underperforming segments.
+- Certain cuisines show high ratings but low sales or vice versa, helping direct business strategies for improvement.
+- Dynamic dashboard features support stakeholder-driven, segmented business analysis.
+```
