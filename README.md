@@ -80,23 +80,20 @@ Four distinct dashboards were created to visualize insights from each milestone,
     - `AgeGroup`: Created using a `SWITCH(TRUE(), ...)` statement to classify customers by age.
     - `Persona`: Built with a `SWITCH(TRUE(), ...)` statement combining `SentimentCategory` and `FrequencyCategory` to define personas.
 
+## Key Business Insights & Recommendations:
+- Target At-Risk Customers for Retention: A significant portion of the customer base falls into the "At-Risk" and "High-Value Dissatisfied" personas. The business should prioritize these segments with targeted promotions and service recovery campaigns to prevent churn.
+- Optimize Operations to Reduce Wait Times: The dashboard highlights variations in `Average Wait Time` across different cuisines. Focusing on improving efficiency for cuisines with longer wait times can directly enhance customer satisfaction and ratings.
+- Leverage Strengths in Top-Performing Cuisines: Cuisines like Chinese and Mexican consistently receive higher ratings. These can be promoted more heavily, and their successful elements (e.g., specific dishes, service style) can be analyzed and potentially replicated across other offerings.
+- Personalize Marketing Using Personas: The detailed persona and age group segmentation enables highly personalized marketing. "Loyal Promoters" can be enrolled in exclusive reward programs, while "New/Occasional Positives" can be targeted with offers to increase their visit frequency.
 
 ### Milestone presentations (PPTs) documenting approach, findings and recommendations.
 
-## How to Use
+## repository Contents & How to Use
+- PPT_Files: Contains all milestone presentations detailing our process, findings, and analysis.
+- Dataset: Includes the raw `restaurant_customer_satisfaction.csv` file used for the project.
+- `Dashboard.pbix`: The final Power BI project file containing all data models, DAX measures, and interactive dashboards.
+- `/Documentation/`: Contains the original project brief from Infosys and milestone reports.
 
-### Interactive Analysis:
-Download and open Dashboard.pbix with Power BI Desktop for full functionality.
-
-### Quick Review:
-Browse the PPT_Files for milestone slides showing approach and key findings.
-
-### Dataset:
-Explore the raw data in /Dataset/restaurant_customer_satisfaction.csv.
-
-## Business Insights (till Milestone 4)
-- Nearly half of customers are classified as At-Risk, concentrated in Middle Aged and Adult groups—highlighting retention opportunities.
-- Chinese cuisine receives the highest positive sentiment, with Loyal Promoters most prevalent here; insights help drive cuisine-specific campaigns.
-- Positive sentiment and frequent visits do not always indicate loyalty, as Casual Neutrals dominate among weekly visitors.
-- New columns for Persona and AgeGroup allow deeper demographic and behavioral analytics, empowering targeted outreach and reducing churn.
-- The dashboard now delivers multidimensional views and granular segmentation, supporting smarter, personalized strategies for every segment.
+## To Explore:
+- Interactive Dashboard: Download and open `Dashboard.pbix` in Microsoft Power BI Desktop.
+- Project Journey: Review the presentations in the `PPT_Files` directory for a step-by-step overview of our work.
