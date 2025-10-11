@@ -92,12 +92,12 @@ Four distinct dashboards were created to visualize insights from each milestone,
     - `Persona`: Built with a `SWITCH(TRUE(), ...)` statement combining `SentimentCategory` and `FrequencyCategory` to define personas.
 
 ## Key Business Insights & Recommendations:
-- Target At-Risk Customers for Retention: A significant portion of the customer base falls into the "At-Risk" and "High-Value Dissatisfied" personas. The business should prioritize these segments with targeted promotions and service recovery campaigns to prevent churn.
-- Optimize Operations to Reduce Wait Times: The dashboard highlights variations in `Average Wait Time` across different cuisines. Focusing on improving efficiency for cuisines with longer wait times can directly enhance customer satisfaction and ratings.
-- Leverage Strengths in Top-Performing Cuisines: Cuisines like Chinese and Mexican consistently receive higher ratings. These can be promoted more heavily, and their successful elements (e.g., specific dishes, service style) can be analyzed and potentially replicated across other offerings.
-- Personalize Marketing Using Personas: The detailed persona and age group segmentation enables highly personalized marketing. "Loyal Promoters" can be enrolled in exclusive reward programs, while "New/Occasional Positives" can be targeted with offers to increase their visit frequency.
+- Target `At-Risk` Customers for Retention: A significant portion of the customer base falls into the "At-Risk" and "High-Value Dissatisfied" personas. The business should prioritize these segments with targeted promotions and service recovery campaigns to prevent churn.
+- Optimize Operations to Reduce `Wait Times`: The dashboard highlights variations in `Average Wait Time` across different cuisines. Focusing on improving efficiency for cuisines with longer wait times can directly enhance customer satisfaction and ratings.
+- Leverage Strengths in `Top-Performing Cuisines`: Cuisines like Chinese and Mexican consistently receive higher ratings. These can be promoted more heavily, and their successful elements (e.g., specific dishes, service style) can be analyzed and potentially replicated across other offerings.
+- Personalize Marketing Using `Personas`: The detailed persona and age group segmentation enables highly personalized marketing. "Loyal Promoters" can be enrolled in exclusive reward programs, while "New/Occasional Positives" can be targeted with offers to increase their visit frequency.
 
-## repository Contents & How to Use
+## Repository Contents & How to Use
 - PPT_Files: Contains all milestone presentations detailing our process, findings, and analysis.
 - Dataset: Includes the raw `restaurant_customer_satisfaction.csv` file used for the project.
 - `Dashboard.pbix`: The final Power BI project file containing all data models, DAX measures, and interactive dashboards.
