@@ -65,9 +65,3 @@ Explore the raw data in /Dataset/restaurant_customer_satisfaction.csv.
 - Positive sentiment and frequent visits do not always indicate loyalty, as Casual Neutrals dominate among weekly visitors.
 - New columns for Persona and AgeGroup allow deeper demographic and behavioral analytics, empowering targeted outreach and reducing churn.
 - The dashboard now delivers multidimensional views and granular segmentation, supporting smarter, personalized strategies for every segment.
-
-## Team 5 Members:
-- Samvedita Bisariya
-- Udit Mathur
-- Hema Latha
-- Dipa Majumder
