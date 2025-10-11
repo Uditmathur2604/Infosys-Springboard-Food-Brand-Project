@@ -30,22 +30,57 @@ restaurant_customer_satisfaction.csv — Raw dataset used for analysis.
 - Milestone 1 Report
 - Milestone 2 Report
 
-## Key Features & Deliverables
+## Project Methodology & Modules Implemented
 
-### Interactive Power BI dashboards showing:
-- KPI cards (Total Revenue, Total Visits, Distinct Customers, Avg Spend per Visit, Avg Ratings, Sentiment)
-- Comparative visuals of Avg Food / Service / Ambiance ratings by cuisine
-- Sentiment vs Sales scatter plot and stacked sentiment breakdowns
-- Revenue share and ranking by cuisine, wait time analysis, loyalty metrics
-- Customer segmentation by persona and age group, with dynamic filters to drive focused business strategy
+Our team implemented the project through a structured, milestone-based approach, developing distinct analytical modules.
 
-### Custom DAX measures for:
-- Correlation analysis (Corr_Spend_Rating, Corr_Sentiment_Sales)
-- Dynamic titles (Selected Cuisine Title)
-- Persona and AgeGroup classification (custom columns)
-- Loyalty %, Revenue Rank, Top Cuisine by Revenue, Cuisine % of Revenue, AvgSpend_vs_Overall
-- Composite Product Feature Score (avg of food, service, ambiance)
-  
+#### Module 1: Data Collection & Cleaning
+- Loaded and integrated the `restaurant_customer_satisfaction.csv` dataset.
+- Performed data cleaning and preparation using Power Query to ensure data quality.
+- Established a star schema data model by creating `DimCustomer` and `DimProduct` dimension tables for robust analysis.
+
+#### Module 2: Sentiment Analysis Module
+- Developed a dual-method sentiment analysis engine:
+    1.  Rule-Based Classification: Created a `SentimentCategory` column in Power Query based on numerical ratings (e.g., Rating >= 4 is "Positive").
+    2.  AI/NLP Classification: Integrated a Python script with the **VADER** library to perform sentiment analysis on generated feedback text, creating `SentimentScore_AI` and `SentimentCategory_AI` columns.
+- Enriched the dataset by creating a `DynamicFeedback` column that synthetically generates contextual review text[cite: 454, 458].
+
+#### Module 3: Product Insights Module
+- Developed a suite of advanced DAX measures to evaluate sales, revenue, and customer ratings at a granular level.
+- Compared product categories by average ratings for Food, Service, and Ambiance.
+- Performed correlation analysis between key metrics like `Sales vs. Sentiment` and `Spend vs. Rating` using DAX.
+
+#### Module 4: Customer Segmentation
+- Identified and created actionable behavioral personas using DAX based on a customer's sentiment and visit frequency[cite: 367]. Key personas include:
+    - Loyal Promoters
+    - New/Occasional Positives
+    - Casual Neutrals
+    - High-Value Dissatisfied
+    - At-Risk Customers
+- Segmented customers into demographic `AgeGroup` categories (e.g., Teen, Adult, Senior) for deeper analysis.
+
+## Key Technical Features & Deliverables
+
+#### Interactive Power BI Dashboards
+Four distinct dashboards were created to visualize insights from each milestone, featuring:
+- KPI Cards: Tracking `Total Revenue`, `Total Visits`, `Average Rating`, `Average Sentiment Score`, and more.
+- Comparative Analysis: Grouped bar charts to compare average Food, Service, and Ambiance ratings across cuisines.
+- Correlation Plots: A scatter plot visualizing the relationship between customer sentiment and total sales by cuisine.
+- Sentiment Breakdowns: Stacked bar charts showing the proportion of positive, neutral, and negative reviews for each cuisine.
+- Persona Distribution: Donut and area charts illustrating the share of each customer persona and their distribution by visit frequency.
+
+#### Advanced DAX & Power Query Implementation
+- Custom DAX Measures:
+    - `Total Revenue` = `SUM('SalesData'[SalesAmount])` 
+    - `Product Feature Score` = `DIVIDE([Avg Food Rating] + [Avg Service Rating] + [Avg Ambiance Rating], 3)` 
+    - `Corr_Spend_Rating` & `Corr_Sentiment_Sales` to mathematically calculate correlation 
+    - `Loyalty %` to measure the percentage of visits from loyalty members 
+    - `Revenue Rank` = `RANKX( ALLSELECTED('SalesData'[Cuisine]), [Total Revenue], , DESC, DENSE )` 
+- Calculated Columns for Segmentation:
+    - `AgeGroup`: Created using a `SWITCH(TRUE(), ...)` statement to classify customers by age.
+    - `Persona`: Built with a `SWITCH(TRUE(), ...)` statement combining `SentimentCategory` and `FrequencyCategory` to define personas.
+
+
 ### Milestone presentations (PPTs) documenting approach, findings and recommendations.
 
 ## How to Use
