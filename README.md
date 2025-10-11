@@ -43,7 +43,7 @@ Our team implemented the project through a structured, milestone-based approach,
 - Developed a dual-method sentiment analysis engine:
     1.  Rule-Based Classification: Created a `SentimentCategory` column in Power Query based on numerical ratings (e.g., Rating >= 4 is "Positive").
     2.  AI/NLP Classification: Integrated a Python script with the **VADER** library to perform sentiment analysis on generated feedback text, creating `SentimentScore_AI` and `SentimentCategory_AI` columns.
-- Enriched the dataset by creating a `DynamicFeedback` column that synthetically generates contextual review text[cite: 454, 458].
+- Enriched the dataset by creating a `DynamicFeedback` column that synthetically generates contextual review text.
 
 #### Module 3: Product Insights Module
 - Developed a suite of advanced DAX measures to evaluate sales, revenue, and customer ratings at a granular level.
@@ -58,6 +58,13 @@ Our team implemented the project through a structured, milestone-based approach,
     - High-Value Dissatisfied
     - At-Risk Customers
 - Segmented customers into demographic `AgeGroup` categories (e.g., Teen, Adult, Senior) for deeper analysis.
+
+## Evaluation Criteria (Milestone-Based):
+- Milestone 1 (Week 2): Cleaned and standardized data from surveys, social media, and reviews. Unified data model validated.
+- Milestone 2 (Week 4): Sentiment analysis implemented. Dashboard includes sentiment trends and keyword-based feedback themes.
+- Milestone 3 (Week 6): Product-level dashboards with category comparisons and sentiment correlation completed.
+- Milestone 4 (Week 8): Segmentation and user personas visualized across region and age filters.
+- Milestone 5 (Week 10): Final strategy dashboard with trend keywords, sentiment shifts, and actionable recommendations.
 
 ## Key Technical Features & Deliverables
 
@@ -85,8 +92,6 @@ Four distinct dashboards were created to visualize insights from each milestone,
 - Optimize Operations to Reduce Wait Times: The dashboard highlights variations in `Average Wait Time` across different cuisines. Focusing on improving efficiency for cuisines with longer wait times can directly enhance customer satisfaction and ratings.
 - Leverage Strengths in Top-Performing Cuisines: Cuisines like Chinese and Mexican consistently receive higher ratings. These can be promoted more heavily, and their successful elements (e.g., specific dishes, service style) can be analyzed and potentially replicated across other offerings.
 - Personalize Marketing Using Personas: The detailed persona and age group segmentation enables highly personalized marketing. "Loyal Promoters" can be enrolled in exclusive reward programs, while "New/Occasional Positives" can be targeted with offers to increase their visit frequency.
-
-### Milestone presentations (PPTs) documenting approach, findings and recommendations.
 
 ## repository Contents & How to Use
 - PPT_Files: Contains all milestone presentations detailing our process, findings, and analysis.
