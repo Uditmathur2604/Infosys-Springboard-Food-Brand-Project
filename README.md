@@ -2,7 +2,11 @@
 
 ## Project Overview
 This project analyzes survey, review, and social media data to understand customer preferences, sentiment, and product-level performance for a food brand. The goal is to deliver actionable business insights via interactive Power BI dashboards and custom DAX measures that combine operational, sentiment, and revenue metrics.
-All work is delivered by Team 5: 
+
+## Under the Guidance:
+- Pavithra Kannan mam
+
+## All work is delivered by Team 5: 
 - Samvedita Bisariya
 - Udit Mathur
 - Hema Latha
