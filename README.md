@@ -12,6 +12,10 @@ This project analyzes survey, review, and social media data to understand custom
 - Hema Latha
 - Dipa Majumder
 
+## Team Collaboration & Contribution
+
+Our team adopted a highly collaborative and flexible working model. Instead of assigning fixed roles, all members contributed to every milestone based on their skills and interests. This dynamic approach fostered shared ownership and continuous learning, ensuring each stage of the project was a product of our collective effort, open communication, and mutual feedback.
+
 ## Contents
 
 ### PPT_Files
