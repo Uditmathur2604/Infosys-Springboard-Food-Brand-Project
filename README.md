@@ -30,6 +30,13 @@ restaurant_customer_satisfaction.csv — Raw dataset used for analysis.
 - Milestone 1 Report
 - Milestone 2 Report
 
+## Evaluation Criteria (Milestone-Based):
+- Milestone 1 (Week 2): Cleaned and standardized data from surveys, social media, and reviews. Unified data model validated.
+- Milestone 2 (Week 4): Sentiment analysis implemented. Dashboard includes sentiment trends and keyword-based feedback themes.
+- Milestone 3 (Week 6): Product-level dashboards with category comparisons and sentiment correlation completed.
+- Milestone 4 (Week 8): Segmentation and user personas visualized across region and age filters.
+- Milestone 5 (Week 10): Final strategy dashboard with trend keywords, sentiment shifts, and actionable recommendations.
+
 ## Project Methodology & Modules Implemented
 
 Our team implemented the project through a structured, milestone-based approach, developing distinct analytical modules.
@@ -58,13 +65,6 @@ Our team implemented the project through a structured, milestone-based approach,
     - High-Value Dissatisfied
     - At-Risk Customers
 - Segmented customers into demographic `AgeGroup` categories (e.g., Teen, Adult, Senior) for deeper analysis.
-
-## Evaluation Criteria (Milestone-Based):
-- Milestone 1 (Week 2): Cleaned and standardized data from surveys, social media, and reviews. Unified data model validated.
-- Milestone 2 (Week 4): Sentiment analysis implemented. Dashboard includes sentiment trends and keyword-based feedback themes.
-- Milestone 3 (Week 6): Product-level dashboards with category comparisons and sentiment correlation completed.
-- Milestone 4 (Week 8): Segmentation and user personas visualized across region and age filters.
-- Milestone 5 (Week 10): Final strategy dashboard with trend keywords, sentiment shifts, and actionable recommendations.
 
 ## Key Technical Features & Deliverables
 
